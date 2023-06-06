@@ -15,20 +15,17 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            RoboKids     <span className='text-[#915EFF]'>Academy </span>
+          <h1 className={`${styles.heroHeadText} text-orange-500` }>
+            Robokids     <span className='text-[#915EFF] text-sky-500	'>Dakhla </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Ateliers de Robotique, programmation et intelligence artificielle 
-          
-          
-          </p>
+         
         </div>
+        
       </div>
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

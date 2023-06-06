@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Robotique",
+    title: "Robotique et AI",
     icon: web,
   },
   {
@@ -88,30 +88,6 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -119,7 +95,7 @@ const experiences = [
     title: "Ateliers hebdomadaires",
     company_name: "RoboKids Dakhla",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Ateliers hebdomadaires",
     points: [
       "Pendant une durée de 2 heures d’atelier, nous retrouvons vos enfants de façon hebdomadaire.",
@@ -132,42 +108,17 @@ const experiences = [
     title: "Stage vacances",
     company_name: "RoboKids Dakhla",
     icon: tesla,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Stage vacances",
     points: [
       "Envie d’activité originale, ludique et pédagogique pour vos enfants pendant les vacances scolaires?",
       "Votre enfant à la possibilité pendant les vacances scolaire d’explorer, d’approfondir une technologie.",
       "Les enfants apprennent l’informatique en s’amusant et deviennent acteurs de leurs projets face aux nouvelles technologies.",
-      "La semaine de stage se déroule sur 5 demi-journées d’atelier du lundi au vendredi, pour une durée de 2h par jour. Possibilité de s’inscrire sur les deux semaines.",
-      "Un certificat en fin de stage est délivré à votre enfant sur la technologie utilisée.",
+      
     ],
   },
-  {
-    title: "Séance de découverte",
-    company_name: "RoboKids Dakhla",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Séance de découverte",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+  
 ];
 
 const testimonials = [

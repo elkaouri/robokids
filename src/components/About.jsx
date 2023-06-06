@@ -39,24 +39,18 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Mettez la technologie dans les mains des enfants !</h2>
+        <h2 className={styles.sectionHeadText } 	>Le future de votre enfant se prépare aujourd'hui !</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-white'
       >
    
-<br/>Les ateliers sont organisés autour de 5 thématiques:<br/>
 
-- La modélisation / l'impression 3D<br/>
-- Programmation<br/>
-- L'électronique<br/>
-- La robotique et l4intelligence artificielle<br/>
-- Computer science<br/>
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 '>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

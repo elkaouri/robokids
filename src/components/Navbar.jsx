@@ -42,20 +42,18 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Robokids Dakhla Academy &nbsp;
-            <span className='sm:block hidden'> | &nbsp;Pour enfants et adolescents</span>
+          <p className='text-cyan-400	text-[18px] font-bold cursor-pointer flex	'>
+            Robokids Dakhla  &nbsp;
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className=' list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-orange-500 text-[18px] font-medium cursor-pointer 		`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
